@@ -19,7 +19,10 @@ extensions = [
 ]
 
 intersphinx_mapping = {
-    "sphinx": ("", None)
+    "tbt2pcie": (
+        "https://ug-hub.readthedocs.io/projects/tbt2pcie/en/latest/",
+        None
+    )
 }
 intersphinx_disabled_reftypes = ["*"]
 
