@@ -6,23 +6,29 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'User Guide - Collection'
-copyright = '2023, cronologic GmbH & Co. KG'
+project = 'User Guide – Collection'
+copyright = "CC BY-ND 4.0 DEED"
 author = 'cronologic GmbH & Co. KG'
 release = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    "sphinx.ext.intersphinx",
+]
+
+intersphinx_mapping = {
+    "sphinx": ("", None)
+}
+intersphinx_disabled_reftypes = ["*"]
 
 templates_path = ['_templates']
 exclude_patterns = []
 
 
-
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
