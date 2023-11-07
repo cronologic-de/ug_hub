@@ -1,5 +1,15 @@
-User Guides
-===========
+cronologic GmbH & Co. KG — User Guides
+======================================
+
+cronologic GmbH & Co. KG offers custom-made data acquisition solutions for
+high-speed and high-precision signal processing and analysis.
+
+Below are the user guides for our products, including our analog-to-digital 
+(ADC) and time-to-digital (TDC) converters.
+
+For more information on our products, please visit our website 
+`www.cronologic.de <https://www.cronologic.de>`_.
+
 
 ADC-Cards
 '''''''''
