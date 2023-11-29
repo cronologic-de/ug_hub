@@ -33,6 +33,26 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
-# html_extra_path = ["_404"]
+html_theme = "alabaster"
+html_static_path = ["_static"]
+html_sidebars = {
+    '**': [
+        'about.html',
+        "navigation.html",
+    ]
+}
+html_theme_options = {
+    "font_family" : "Montserrat, sans-serif",
+    "sidebar_collapse": False,
+    "extra_nav_links": {
+        "Homepage": "https://www.cronologic.de/",
+        "Imprint": "https://www.cronologic.de/contact"
+    },
+    "fixed_sidebar": True,
+    "logo": "cronologic.svg",
+    "description": f"GmbH & Co. KG",
+    "show_powered_by": False,
+    # colors
+    "body_text" : "#737372",
+    "link_hover": "#376EB5",
+}
