@@ -21,9 +21,9 @@ ADC-Cards
 TDC-Cards
 '''''''''
 
-- TimeTagger4 (`PDF <https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`__)
-- xTDC4 (`PDF <https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`__)
-- xHPTDC8 (`PDF <https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide.pdf>`__)
+- TimeTagger4 (`PDF <https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide_v1.8.11.pdf>`__)
+- xTDC4 (`PDF <https://download.cronologic.de/xTDC4-PCIe/xTDC4_User_Guide_v1.8.11.pdf>`__)
+- xHPTDC8 (`PDF <https://download.cronologic.de/xHPTDC8-PCIe/xHPTDC8_User_guide_v1.8.11.pdf>`__)
 
 
 Other
