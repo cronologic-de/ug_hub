@@ -56,7 +56,8 @@ div.sphinxsidebar {
 }
 
 h1 {
-  color:  #ED7807;
+  /* color:  #ED7807; */
+  font-weight: normal;
 }
 
 h2,
@@ -64,7 +65,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--color-brand-primary);
+  /* color: var(--color-brand-primary); */
+  font-weight: normal;
 }
 
 .caption-number{
