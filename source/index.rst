@@ -1,13 +1,17 @@
 :hide-toc:
 
-.. image:: _static/cronologic.svg
-    :alt: cronologic logo
+===============================
+User Guides & Application Notes
+===============================
 
 **cronologic** GmbH & Co. KG offers custom-made data acquisition solutions for
 high-speed and high-precision signal processing and analysis.
 
 Here are the *User Guides* for our products, including our 
-analog-to-digital (ADC) and time-to-digital (TDC) converters.
+`analog-to-digital <https://www.cronologic.de/products/products-overview#adcdata>`_
+(ADC) and 
+`time-to-digital <https://www.cronologic.de/products/products-overview#tdcdata>`_
+(TDC) converters.
 
 Our *Application Notes* outline multiple example applications of our ADC or 
 TDC converters, including source code and configuration setups.

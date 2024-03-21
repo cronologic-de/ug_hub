@@ -71,6 +71,7 @@ html_theme_options = {
 
 html_sidebars = {
     "**": [
+        "sidebar/brand.html",
         # "sidebar/search.html",
         # "sidebar/scroll-start.html",
         # "sidebar/navigation.html",
@@ -82,6 +83,6 @@ html_sidebars = {
 html_favicon = "_static/cronologic_favicon.svg"
 html_title = f"cronologic - {project}"
 html_secnumber_suffix = " "
-# html_logo = "_static/cronologic.svg"
+html_logo = "_static/cronologic.svg"
 html_static_path = ['_static']
 html_css_files = ["custom.css"]
