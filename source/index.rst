@@ -1,21 +1,33 @@
-User Guides
-===========
+:hide-toc:
 
-cronologic GmbH & Co. KG offers custom-made data acquisition solutions for
+===============================
+User Guides & Application Notes
+===============================
+
+**cronologic** GmbH & Co. KG offers custom-made data acquisition solutions for
 high-speed and high-precision signal processing and analysis.
 
-Below are the user guides for our products, including our analog-to-digital 
-(ADC) and time-to-digital (TDC) converters.
+Here are the *User Guides* for our products, including our 
+`analog-to-digital <https://www.cronologic.de/products/products-overview#adcdata>`_
+(ADC) and 
+`time-to-digital <https://www.cronologic.de/products/products-overview#tdcdata>`_
+(TDC) converters.
+
+Our *Application Notes* outline multiple example applications of our ADC or 
+TDC converters, including source code and configuration setups.
 
 For more information on our products, please visit our homepage 
 `www.cronologic.de <https://www.cronologic.de>`_.
 
+User Guides
+===========
 
-ADC-Cards
+ADC Cards
 '''''''''
 
 - Ndigo5G-10 (`PDF <https://download.cronologic.de/Ndigo5G-10/Ndigo5G_user_guide_2021.pdf>`__)
-- Ndigo6g-12 (`PDF <https://www.cronologic.de/product/ndigo6g-12>`__)
+- Ndigo6G-12 (`HTML <https://docs.cronologic.de/projects/ndigo6g/en/latest/>`__,
+  `PDF <https://www.cronologic.de/product/ndigo6g-12>`__)
 
 
 TDC-Cards
@@ -32,3 +44,8 @@ Other
 - Ndigo-Crate (`PDF <https://download.cronologic.de/PCIe-Crates/Ndigo_Crate_User_Guide.pdf>`__)
 - Desktop Solutions (`HTML <https://docs.cronologic.de/projects/tbt2pcie/en/latest/>`__,
   `PDF <https://docs.cronologic.de/_/downloads/tbt2pcie/en/latest/pdf/>`__)
+
+
+Application Notes
+=================
+*coming soon*
