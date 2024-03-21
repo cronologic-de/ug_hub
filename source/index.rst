@@ -1,7 +1,6 @@
-User Guides
-===========
+:hide-toc:
 
-cronologic GmbH & Co. KG offers custom-made data acquisition solutions for
+**cronologic** GmbH & Co. KG offers custom-made data acquisition solutions for
 high-speed and high-precision signal processing and analysis.
 
 Below are the user guides for our products, including our analog-to-digital 
@@ -10,6 +9,8 @@ Below are the user guides for our products, including our analog-to-digital
 For more information on our products, please visit our homepage 
 `www.cronologic.de <https://www.cronologic.de>`_.
 
+User Guides
+===========
 
 ADC-Cards
 '''''''''
@@ -32,3 +33,7 @@ Other
 - Ndigo-Crate (`PDF <https://download.cronologic.de/PCIe-Crates/Ndigo_Crate_User_Guide.pdf>`__)
 - Desktop Solutions (`HTML <https://docs.cronologic.de/projects/tbt2pcie/en/latest/>`__,
   `PDF <https://docs.cronologic.de/_/downloads/tbt2pcie/en/latest/pdf/>`__)
+
+Application Notes
+=================
+*coming soon*

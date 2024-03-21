@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = ""
+project = "Documentation"
 copyright = "CC BY-ND 4.0 DEED"
 author = 'cronologic GmbH & Co. KG'
 # release = '0.1.0'
@@ -33,27 +33,37 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = "alabaster"
-html_static_path = ["_static"]
-html_favicon = "_static/cronologic_favicon.svg"
-html_sidebars = {
-    '**': [
-        'about.html',
-        "navigation.html",
-    ]
-}
+cronoblue = "#376EB5"
+cronolightblue = "#569fd6"
+cronoorange = "#ED7807"
+cronolightorange = "rgb(237, 120, 7, 0.2)"
+
+html_theme = "furo"
 html_theme_options = {
-    "font_family" : "Montserrat, sans-serif",
-    "sidebar_collapse": False,
-    "extra_nav_links": {
-        "Homepage": "https://www.cronologic.de/",
-        "Imprint": "https://www.cronologic.de/contact"
+    "dark_css_variables": {
+        "color-brand-primary": cronolightblue,
+        "color-brand-content": cronolightblue,
+        "color-api-name": cronoorange,
+        "color-sidebar-brand-text": cronolightblue,
+        "color-highlight-on-target": cronolightorange,
     },
-    "fixed_sidebar": True,
-    "logo": "cronologic.svg",
-    "description": f"GmbH & Co. KG",
-    "show_powered_by": False,
-    # colors
-    "body_text" : "#737372",
-    "link_hover": "#376EB5",
+    "light_css_variables": {
+        "color-brand-primary": cronoblue,
+        "color-brand-content": cronoblue,
+        "color-api-name": cronoorange,
+        "color-sidebar-brand-text": cronoblue,
+        "color-admonition-title--attention": cronoorange,
+        "color-admonition-title-background--attention": cronolightorange,
+        "color-highlight-on-target": cronolightorange,
+        "sidebar-caption-space-above": "0",
+    },
+    "top_of_page_button": None,
+    "sidebar_hide_name": True,
 }
+
+html_favicon = "_static/cronologic_favicon.svg"
+html_title = f"cronologic - {project}"
+html_secnumber_suffix = " "
+# html_logo = "_static/cronologic.svg"
+html_static_path = ['_static']
+html_css_files = ["custom.css"]
