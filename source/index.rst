@@ -25,7 +25,7 @@ User Guides
 ADC Cards
 '''''''''
 
-- Ndigo5G-10 (`PDF <https://download.cronologic.de/Ndigo5G-10/Ndigo5G_user_guide_2021.pdf>`__)
+- Ndigo5G-10 (`PDF <https://download.cronologic.de/Ndigo5G-10/Ndigo5G_User_Guide.pdf>`__)
 - Ndigo6G-12 (`HTML <https://docs.cronologic.de/projects/ndigo6g/en/latest/>`__,
   `PDF <https://www.cronologic.de/product/ndigo6g-12>`__)
 
