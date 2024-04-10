@@ -71,16 +71,16 @@ html_theme_options = {
     "sidebar_hide_name": True,
 }
 
-html_sidebars = {
-    "**": [
-        "sidebar/brand.html",
-        # "sidebar/search.html",
-        # "sidebar/scroll-start.html",
-        # "sidebar/navigation.html",
-        "sidebar/ethical-ads.html",
-        # "sidebar/scroll-end.html",
-    ]
-}
+# html_sidebars = {
+#     "**": [
+#         "sidebar/brand.html",
+#         # "sidebar/search.html",
+#         # "sidebar/scroll-start.html",
+#         # "sidebar/navigation.html",
+#         "sidebar/ethical-ads.html",
+#         # "sidebar/scroll-end.html",
+#     ]
+# }
 
 html_favicon = "_static/cronologic_favicon.svg"
 html_title = f"cronologic - {project}"
