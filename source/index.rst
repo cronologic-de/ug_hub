@@ -44,6 +44,8 @@ Other
 - Ndigo-Crate (`PDF <https://download.cronologic.de/PCIe-Crates/Ndigo_Crate_User_Guide.pdf>`__)
 - Desktop Solutions (`HTML <https://docs.cronologic.de/projects/tbt2pcie/en/latest/>`__,
   `PDF <https://docs.cronologic.de/_/downloads/tbt2pcie/en/latest/pdf/>`__)
+- TimeTagger Module (`HTML <https://docs.cronologic.de/projects/timetaggermodule/en/latest/>`__,
+  `PDF <https://docs.cronologic.de/_/downloads/timetaggermodule/en/latest/pdf/>`__)
 
 
 Application Notes
