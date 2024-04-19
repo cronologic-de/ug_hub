@@ -16,6 +16,9 @@ Here are the *User Guides* for our products, including our
 Our *Application Notes* outline multiple example applications of our ADC or 
 TDC converters, including source code and configuration setups.
 
+If you are interested in setting up your cronologic device on a Linux machine,
+please refer to the instructions at :doc:`linux`.
+
 For more information on our products, please visit our homepage 
 `www.cronologic.de <https://www.cronologic.de>`_.
 
@@ -51,3 +54,8 @@ Other
 Application Notes
 =================
 *coming soon*
+
+.. toctree::
+    :hidden:
+
+    linux
