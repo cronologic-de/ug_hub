@@ -5,23 +5,25 @@ Linux Support
 In order to set up your cronologic device with your Linux machine, you
 need to
 
-- install our ``cronologic_linux_kernel``, an open-source
-  project availabe on our
-  `GitHub <https://github.com/cronologic-de/cronologic_linux_kernel>`_.
-- get the necessary libraries for the particular device you bought. They are
-  provided with our wrappers, utilities, and examples availabe on GitHub:
+1. install our ``cronologic_linux_kernel``, an open-source
+   project availabe on our
+   `GitHub <https://github.com/cronologic-de/cronologic_linux_kernel>`_.
+2. get the necessary libraries for the particular device you bought. They are
+   provided with our wrappers, utilities, and examples available on GitHub:
 
     - `xHPTDC8 <https://github.com/cronologic-de/xhptdc8_babel>`_
     - `xTDC4 <https://github.com/cronologic-de/xtdc_babel>`_
-    - `TimeTagger4 <https://github.com/cronologic-de/xtdc_babel>`_
+    - `TimeTagger4 <https://github.com/cronologic-de/xtdc_babel>`_ 
     - `Ndigo6G-12 <https://github.com/cronologic-de/ug_ndigo6g>`_
     - `Ndigo5G-10 <https://github.com/cronologic-de/ndigo5g_babel>`_
 
 You can find detailed instructions for the installation on the respective 
 GitHub repositories, as well.
 
-Install ``cronologic_linux_kernel``
-===================================
+-----------
+
+1. Install ``cronologic_linux_kernel``
+======================================
 
 The ``cronologic_linux_kernel`` has been tested on the following 64-bit
 distributions (see the `GitHub README 
@@ -35,7 +37,6 @@ for details on the particular versions):
 - openSUSE
 
 
------------
 
 Install the prerequisites
 -------------------------
@@ -171,7 +172,6 @@ We strongly recommend using ``dkms`` to manage the kernel installation.
 
 
 
-
 Clone the GitHub repository 
 ---------------------------
 
@@ -202,11 +202,55 @@ are unable to use ``DKMS``, you can find instructions on a manual installation
 .. warning::
 
     If you don't use ``DKMS`` to manage the installation, you have to reinstall
-    ``cronologic_linux_kernel`` for every change to your linux kernel.
+    ``cronologic_linux_kernel`` for every change to your Linux kernel.
+
+----
 
 
-Compile and run the GitHub example
-==================================
+2. Compile and run the GitHub example
+=====================================
 
-Clone or download the ``_babel`` project.
-Do things
+Clone the ``babel`` repository of your card using the following command
+(alternatively, download the latest release from the respective repository
+release page).
+
+.. tabs::
+
+    .. tab:: Ndigo6G
+
+        .. code:: shell
+
+            git clone https://github.com/cronologic-de/ndigo6g_babel
+
+    .. tab:: Ndigo5G
+
+        .. code:: shell
+
+            git clone https://github.com/cronologic-de/ndigo5g_babel
+
+    .. tab:: xHPTDC8
+
+        .. code:: shell
+
+            git clone https://github.com/cronologic-de/xhptdc8_babel
+
+    .. tab:: xTDC4
+
+        .. code:: shell
+
+            git clone https://github.com/cronologic-de/xtdc_babel
+
+    .. tab:: TimeTagger4
+
+        .. code:: shell
+
+            git clone https://github.com/cronologic-de/xtdc_babel
+
+
+Follow the instructions in the ``README`` on how to compile the user guide
+example.
+
+If you can successfully run the user guide example, either adjust it to your 
+needs or make sure that you link the necessary Linux libraries in your own
+project. They are provided in the ``\lib\`` directory of the respective
+repository.
