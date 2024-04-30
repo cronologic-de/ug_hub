@@ -155,20 +155,20 @@ We strongly recommend using ``dkms`` to manage the kernel installation.
        
         .. code:: shell
 
-             sudo zypper install make gcc
+            sudo zypper install make gcc
 
         Install ``modules`` and ``headers`` of your current kernel version:
 
-         .. code:: shell
+        .. code:: shell
 
-             sudo zypper in kernel-devel kernel-default-devel
-             sudo zypper up
+            sudo zypper in kernel-devel kernel-default-devel
+            sudo zypper up
 
         Install ``dkms``:
 
-         .. code:: shell
+        .. code:: shell
 
-             sudo apt-get install dkms
+            sudo apt-get install dkms
 
 
 
