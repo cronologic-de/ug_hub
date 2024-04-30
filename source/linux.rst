@@ -59,7 +59,7 @@ We strongly recommend using ``dkms`` to manage the kernel installation.
 
             sudo apt-get install make gcc
 
-        Install ``modules`` and ``headers`` of your current kernel version:
+        Install ``headers`` and ``modules`` of your current kernel version:
 
         .. code:: shell
 
@@ -137,11 +137,11 @@ We strongly recommend using ``dkms`` to manage the kernel installation.
 
             sudo apt-get install make gcc
 
-        Install ``modules`` and ``headers`` of your current kernel version:
+        Install ``headers`` and ``modules`` of your current kernel version:
 
         .. code:: shell
 
-            sudo apt-get install linux-headers-$(uname -r)
+            sudo apt-get install linux-headers-$(uname -r) linux-modules-$(uname -r)
 
         Install ``dkms``:
 
