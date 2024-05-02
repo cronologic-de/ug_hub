@@ -42,7 +42,7 @@ Install the prerequisites
 -------------------------
 
 Make sure to install the prerequisites before attempting to install
-``cronologic_linux_kernel``. ``sudo`` priviliges are necessary for
+``cronologic_linux_kernel``. ``sudo`` privileges are necessary for
 installation.
 
 We strongly recommend using ``dkms`` to manage the kernel installation.
