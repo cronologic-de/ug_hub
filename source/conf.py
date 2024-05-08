@@ -16,7 +16,6 @@ author = 'cronologic GmbH & Co. KG'
 
 extensions = [
     "sphinx.ext.intersphinx",
-    "sphinx_tabs.tabs",
 ]
 
 intersphinx_mapping = {
