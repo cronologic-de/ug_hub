@@ -16,8 +16,8 @@ Here are the *User Guides* for our products, including our
 Our *Application Notes* outline multiple example applications of our ADC or 
 TDC converters, including source code and configuration setups.
 
-If you are interested in setting up your cronologic device on a Linux machine,
-please refer to our
+If you are interested in setting up your **cronologic device on a Linux 
+machine**, please refer to our
 `Linux support page <https://www.cronologic.de/support/linux>`_.
 
 For more information on our products, please visit our homepage 
@@ -30,8 +30,8 @@ ADC Cards
 '''''''''
 
 - Ndigo5G-10 (`PDF <https://download.cronologic.de/Ndigo5G-10/Ndigo5G_User_Guide.pdf>`__)
-- Ndigo6G-12 (`HTML <https://docs.cronologic.de/projects/ndigo6g/en/latest/>`__,
-  `PDF <https://www.cronologic.de/product/ndigo6g-12>`__)
+- Ndigo6G-12 (`HTML <https://docs.cronologic.de/ndigo6g/>`__,
+  `PDF <https://docs.cronologic.de/downloads/ndigo6g/Ndigo6G_User_Guide.pdf>`__)
 
 
 TDC-Cards
@@ -46,10 +46,10 @@ Other
 '''''
 
 - Ndigo-Crate (`PDF <https://download.cronologic.de/PCIe-Crates/Ndigo_Crate_User_Guide.pdf>`__)
-- Desktop Solutions (`HTML <https://docs.cronologic.de/projects/tbt2pcie/en/latest/>`__,
-  `PDF <https://docs.cronologic.de/_/downloads/tbt2pcie/en/latest/pdf/>`__)
-- TimeTagger Module (`HTML <https://docs.cronologic.de/projects/timetaggermodule/en/latest/>`__,
-  `PDF <https://docs.cronologic.de/_/downloads/timetaggermodule/en/latest/pdf/>`__)
+- Desktop Solutions (`HTML <https://docs.cronologic.de/desktopsolutions/>`__,
+  `PDF <https://docs.cronologic.de/downloads/desktopsolutions/DesktopSolutions_User_Guide.pdf>`__)
+- TimeTagger Module (`HTML <https://docs.cronologic.de/timetaggermodule/>`__,
+  `PDF <https://docs.cronologic.de/downloads/timetaggermodule/TimeTagger_Module_Integration_Guide.pdf>`__)
 
 
 Application Notes
