@@ -34,7 +34,7 @@ ADC Cards
   `PDF <https://docs.cronologic.de/downloads/ndigo6g/Ndigo6G_User_Guide.pdf>`__)
 
 
-TDC-Cards
+TDC Cards
 '''''''''
 
 - TimeTagger4 (`PDF <https://download.cronologic.de/TimeTagger/TimeTagger4_User_Guide.pdf>`__)
