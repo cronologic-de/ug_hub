@@ -8,7 +8,7 @@
 
 project = "Documentation"
 copyright = "CC BY-ND 4.0 DEED"
-author = 'cronologic GmbH & Co. KG'
+author = "cronologic GmbH & Co. KG"
 # release = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
@@ -18,15 +18,7 @@ extensions = [
     "sphinx.ext.intersphinx",
 ]
 
-intersphinx_mapping = {
-    "tbt2pcie": (
-        "https://ug-hub.readthedocs.io/projects/tbt2pcie/en/latest/",
-        None
-    )
-}
-intersphinx_disabled_reftypes = ["*"]
-
-templates_path = ['_templates']
+templates_path = ["_templates"]
 exclude_patterns = []
 
 
@@ -86,5 +78,5 @@ html_favicon = "_static/cronologic_favicon.svg"
 html_title = f"cronologic - {project}"
 html_secnumber_suffix = " "
 html_logo = "_static/cronologic.svg"
-html_static_path = ['_static']
+html_static_path = ["_static"]
 html_css_files = ["custom.css"]
