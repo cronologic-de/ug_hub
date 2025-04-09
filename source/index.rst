@@ -46,7 +46,7 @@ Other
 '''''
 
 - Ndigo-Crate (`PDF <https://download.cronologic.de/PCIe-Crates/Ndigo_Crate_User_Guide.pdf>`__)
-- Desktop Solutions (`HTML <https://docs.cronologic.de/desktopsolutions/>`__,
+- Desktop Solutions / TBT-Variants (`HTML <https://docs.cronologic.de/desktopsolutions/>`__,
   `PDF <https://docs.cronologic.de/downloads/desktopsolutions/DesktopSolutions_User_Guide.pdf>`__)
 - TimeTagger Module (`HTML <https://docs.cronologic.de/timetaggermodule/>`__,
   `PDF <https://docs.cronologic.de/downloads/timetaggermodule/TimeTagger_Module_Integration_Guide.pdf>`__)
