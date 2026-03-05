@@ -56,4 +56,5 @@ Other
 
 Application Notes
 =================
-*coming soon*
+
+`Quantization vs. Jitter: Error sources of TDCs <https://docs.cronologic.de/app_notes/tdc_errors>`__
