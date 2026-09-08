@@ -1,34 +1,34 @@
 # ug_hub
 
 This is a [Sphinx](https://www.sphinx-doc.org) project that gives an overview of
-all the user guides for all the products by
-[cronologic GmbH & Co. KG](https://www.cronologic.de). The HTML output is
-available online at [docs.cronologic.de](https://docs.cronologic.de).
+all the user guides for all the products of
+[cronologic GmbH & Co. KG](https://www.cronologic.de), such as cronologic's
+highspeed
+[analog-to-digital](https://www.cronologic.de/products/products-overview#adcdata)
+(ADC) and
+[time-to-digital](https://www.cronologic.de/products/products-overview#tdcdata)
+(TDC) converters.
 
-## Setup and installation
+The resulting HTML is hosted online at
+[docs.cronologic.de](https://docs.cronologic.de).
 
-A Python installation is necessary to compile the user guide.
+## Prerequisites
 
-Optionally, create and activate a virtual environment
+Python is necessary for creating the HTML output.
 
-```shell
-python -m venv .venv
-. .\.venv\Scripts\activate
-```
+Python and LuaLaTeX are necessary for creating the LaTeX/PDF output.
 
-Install the requirements of the project
+Dependencies are managed using [uv](https://docs.astral.sh/uv).
 
-```shell
-pip install -r requirements.txt
-```
+## Building
 
-After that, run
+Run
 
 ```shell
 make html
 ```
 
-to compile the project as html. The html output is in build/html/.
+to compile the project as html. The html output is in `build/html/`.
 
 ## License
 
